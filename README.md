@@ -1,6 +1,8 @@
 # HighConcurrenceToolsTree
 并发工具技术研究
 
+同步器：
+
 <pre>
 等待多线程完成，线程同步
 
@@ -54,4 +56,15 @@ Exchanger
        final Exchanger exchanger = new Exchanger();
 
        exchanger.exchange(data1)
+</pre>
+
+
+同步容器：
+
+<pre>
+    Vector/Hashtable
+    ConcurrentHashMap
+    CopyOnWriteArrayList
+    ConcurrentLinkedQueue
+    LinkedBlockingQueue
 </pre>
